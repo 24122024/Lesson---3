@@ -1,12 +1,9 @@
-course = 'Python' # ПЕРЕМЕННЫЕ
-print(course)
-total_tasks = ('a') # всего задач
-a = 12
-print(a)
-hours_spent = ('b') # затрачено часов
-b = 1.5
-print(b)
-average_execution_time = ('c') # среднее время выполнения
-c = b/a
-print(c)
-print('Course: Python,' 'total_tasks:12,' 'hours_spent:1.5,' 'average_eaxecution_time 0.125 hours.')
+course_name = 'Python'
+total_tasks = 12  # всего задач
+print(total_tasks)
+hours_spent = 1.5  # затраченные часы
+print(hours_spent)
+time_per_task = hours_spent / total_tasks  # среднее время выполнения
+print(time_per_task)
+print('Course:', course_name, ',', 'total tasks:', total_tasks, ',', 'hours spent:', hours_spent, ',',
+      'average eaxecution time', time_per_task, 'hours.')
